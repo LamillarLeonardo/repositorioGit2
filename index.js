@@ -8,6 +8,10 @@ app.get('/hola',(req,res){
 });
 
 
+app.get('/adios',(req,res){
+  res.send('ruta adios');
+});
+
 app.listen(3000, ()->){
   console.log('example app listening on port 3000');
 };
